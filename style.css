@@ -3,7 +3,7 @@
     padding: 0px;
 }
 
-/* navbar */
+/* navbar css */
 .menu-container{
     background-color: black;
     padding: 20px;
@@ -26,7 +26,7 @@
     cursor: pointer;
 }
 
-/* banner */
+/* banner css */
 .banner-container{
     display: flex;
     justify-content: space-around;
@@ -36,6 +36,7 @@
     color: white;
     background-image: url("./images/background.png"),
     linear-gradient(45deg, #080808, #505050);
+    background-size: cover;
 }
 .banner-img{
     width: 400px;
@@ -59,4 +60,56 @@
 }
 .btn:hover{
     background-color: rgb(155, 170, 127);
+}
+
+/* About css */
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+.about-title{
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* Service css */
+.box{
+    width: 230px;
+    height: 300px;
+    box-shadow: 4px 4px 15px;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+}
+.icon{
+    width: 80px;
+}
+.box-btn{
+    background-color: grey;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.box-title{
+    padding: 10px;
+}
+.box-description{
+    padding: 10px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+.service-section{
+    background-image: url("./images/background.png");
+    background-color: #080808;
+}
+.s{
+    color: white;
 }
